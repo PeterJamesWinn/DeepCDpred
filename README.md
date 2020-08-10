@@ -6,7 +6,7 @@ https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205214
 
 
 Network Training Script:
-The python script for training the neural network is given in the file train network.py in this repository.
+The python script for training the neural network is given in the file train_network.py in this repository.
 
 Feature Vector Generation:
 Descriptions and links to the software used to create the input features for the feature vector can be found at the end of the supplementary material of the above linked article.
@@ -16,8 +16,10 @@ Rosetta Scripts:
 The Rosetta script that is used
 to generate structures via Abinitio relax is given in the file flags_for_rosetta_ab_initio
 
+Data (.csv files) for fig. 5 and fig. S7 of the manuscript:
+fig5_figS7_data.zip
 
-
+Author Contriubtions:
 Shuangxi Ji
 Contributed equally to this work with: Shuangxi Ji, Tuğçe Oruç
 
