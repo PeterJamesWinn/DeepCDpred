@@ -3,13 +3,20 @@ Material associated with our PLoS One paper on DeepCDpred.
 
 DeepCDpred: Inter-residue distance and contact prediction for improved prediction of protein structure:
 https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205214
-Descriptions and links to the software used to create the input feature vector can be found at the end of the supplementary material of the above linked article.
 
-Network Training Script
+
+Network Training Script:
 The python script for training the neural network is given in the file train network.py in this repository.
-Rosetta Scripts
-Parameter settings in the Rosetta protocol file: The Rosetta script that is used
-to generate structures via Abinitio relax is given in the file flags for rosetta ab initio.
+
+Feature Vector Generation:
+Descriptions and links to the software used to create the input features for the feature vector can be found at the end of the supplementary material of the above linked article.
+The script to generate the feature vector is Create_3_13_13.py; which also imports from Target_CCMPRED_MATRIX_3_13_13.py
+
+Rosetta Scripts:
+The Rosetta script that is used
+to generate structures via Abinitio relax is given in the file flags_for_rosetta_ab_initio
+
+
 
 Shuangxi Ji
 Contributed equally to this work with: Shuangxi Ji, Tuğçe Oruç
